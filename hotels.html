@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона — отели Седоны</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -17,9 +18,7 @@
           <li><a href="#" class="current">Гостиницы</a></li>
         </ul>
       </nav>
-      <div class="site_logo">
-        <a href="index.html" title="Главня страница"></a>
-      </div>
+        <a class="site_logo" href="index.html" title="Главня страница"></a>
     </header>
 
     <main>
@@ -30,8 +29,8 @@
             <fieldset class="filter_infrastructure">
               <legend>Инфраструктура:</legend>
               <p>
-                <input type="checkbox" id="swimming-pool" class="hidden_text filter_checkbox" name="pool" checked>
-                <label for="swimming-pool"><span>Бассейн</span></label>
+                <input type="checkbox" id="swimming_pool" class="hidden_text filter_checkbox" name="pool" checked>
+                <label for="swimming_pool"><span>Бассейн</span></label>
                 <p>
                   <input type="checkbox" id="parking" class="hidden_text filter_checkbox" name="parking">
                   <label for="parking"><span>Парковка</span></label>
@@ -92,7 +91,7 @@
         <div class="sorting">
           <span>Сортировка:</span>
           <ul>
-            <li><a class="sort-active">По цене</a></li>
+            <li><a class="sort_active">По цене</a></li>
             <li><a href="#" class="sort">По типу</a></li>
             <li><a href="#" class="sort">По рейтингу</a></li>
           </ul>
@@ -193,7 +192,7 @@
 
     <footer class="footer">
       <div class="visit_sedona_hashtag">
-          <p>#VISITSEDONA</p>
+          <p>#visitsedona</p>
         </div>
 
         <div class="social_block">
