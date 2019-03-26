@@ -50,7 +50,7 @@ body {
 a {
     text-decoration: none;
     color: #000000;
-}    
+}
 
 .site_logo {
     position: absolute;
@@ -1347,7 +1347,7 @@ a {
     width: 142px;
 }
 
-.button-hotel {
+.button_hotel {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1446,7 +1446,7 @@ a {
             box-sizing: border-box;
 }
 
-.star-four {
+.star_four {
     background-image: url("../img/star.svg");
     height: 17px; 
     width: 87px;
@@ -1454,7 +1454,7 @@ a {
     background-repeat: space;
 }
 
-.star-three {
+.star_three {
     background-image: url("../img/star.svg");
     height: 17px; 
     width: 65px;
@@ -1462,7 +1462,7 @@ a {
     background-repeat: space;
 }
 
-.star-two {
+.star_two {
     background-image: url("../img/star.svg");
     height: 17px; 
     width: 41px;
