@@ -2,11 +2,11 @@ var searchButton = document.querySelector(".search_hotel_show");
 var sec = document.querySelector(".form_sec_search");
 var formFind = document.querySelector(".hotel_search_form");
 var entrydateFind = document.querySelector("#entrydate");
-var outdateFind=document.querySelector("#outdate");
+var outdateFind = document.querySelector("#outdate");
 
-if (typeof(searchButton) != "undefined" && searchButton !=null){
+if (typeof(searchButton) != "undefined" && searchButton != null){
 searchButton.addEventListener ("click", function (event) {event.preventDefault();
-  sec.classList.toggle("form_sec_search-show");
+  sec.classList.toggle("form_sec_search_show");
 });
 }
 
